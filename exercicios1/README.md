@@ -51,7 +51,7 @@ Preciso estudar NOME-DA-TECNOLOGIA
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   https://github.com/MiguelRodriguesCRN/p4_taf_2025.git
    ```
 
 2. Acesse a pasta do projeto:
