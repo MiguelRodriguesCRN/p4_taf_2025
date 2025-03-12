@@ -2,6 +2,8 @@
 
 Este repositório contém dois exercícios práticos utilizando React com Vite. O objetivo é criar e importar componentes filhos para o componente pai `App.jsx`, permitindo realizar operações matemáticas e exibir mensagens utilizando `props`.
 
+ALUNO: Miguel Rodrigues Carneiro
+
 ## Tecnologias Utilizadas
 - Visual Studio Code
 - Node.js
