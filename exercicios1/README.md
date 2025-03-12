@@ -45,7 +45,7 @@ Preciso estudar NOME-DA-TECNOLOGIA
 ### Resultados Dos Exercicios
 
 ```
-![Resultados](src/resultado/Screenshot_2.png)
+<img src="/exercicios1/src/resultado/Screenshot_2.png" alt="RESULTADOS DOS EXERCICIOS" width="300px">
 ```
 
 #### Exemplo de Uso:
