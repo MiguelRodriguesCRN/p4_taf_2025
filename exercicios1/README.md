@@ -1,12 +1,78 @@
-# React + Vite
+# Exercícios de React - Aula 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém dois exercícios práticos utilizando React com Vite. O objetivo é criar e importar componentes filhos para o componente pai `App.jsx`, permitindo realizar operações matemáticas e exibir mensagens utilizando `props`.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+- Visual Studio Code
+- Node.js
+- NPM
+- GitHub
+- React
+- Vite
+- JavaScript (JSX)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Exercícios
 
-## Expanding the ESLint configuration
+### Exercício 1: Operações Matemáticas
+Criamos quatro componentes:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `Adicao.jsx`
+- `Subtracao.jsx`
+- `Multiplicacao.jsx`
+- `Divisao.jsx`
+
+Cada componente recebe duas propriedades sendo (`num1` e `num2`) e exibe o seguinte resultado:
+
+```
+O resultado de num1 operação(+, -, /, *) num2 é: resultado
+```
+
+#### Exemplo de Uso:
+```jsx
+<Adicao num1={100} num2={50} />
+<Divisao num1={20} num2={4} />
+<Subtracao num1={30} num2={10} />
+<Multiplicacao num1={5} num2={6} />
+```
+
+### Exercício 2: Exibir Mensagem Personalizada
+Criamos um componente chamado `PrecisoEstudar.jsx`, que recebe uma propriedade chamada `nomeDaTecnologia` e exibe a seguinte mensagem:
+
+```
+Preciso estudar NOME-DA-TECNOLOGIA
+```
+
+#### Exemplo de Uso:
+```jsx
+<PrecisoEstudar nomeDaTecnologia={"TypeScript e MongoDB"} />
+```
+
+## Como Executar o Projeto
+
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```sh
+   cd caminho/para/o/projeto
+   ```
+
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   ```
+
+5. Acesse o projeto no navegador:
+   ```
+   http://localhost:5173
+   ```
+
+---
+
