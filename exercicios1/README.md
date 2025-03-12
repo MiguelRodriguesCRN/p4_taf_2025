@@ -45,7 +45,7 @@ Preciso estudar NOME-DA-TECNOLOGIA
 ### Resultados Dos Exercicios
 
 
-<img src="/exercicios1/src/resultado/Screenshot_2.png" alt="RESULTADOS DOS EXERCICIOS" width="300px">
+![Descrição da Imagem](src/resultado/Screenshot_2.png)
 
 
 #### Exemplo de Uso:
