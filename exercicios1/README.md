@@ -6,12 +6,10 @@ ALUNO: Miguel Rodrigues Carneiro
 
 ## Tecnologias Utilizadas
 - Visual Studio Code
-- Node.js
+- Node.js - Vite - JavaScript (JSX)
 - NPM
 - GitHub
 - React
-- Vite
-- JavaScript (JSX)
 
 ## Exercícios
 
@@ -64,7 +62,7 @@ Preciso estudar NOME-DA-TECNOLOGIA
 
 2. Acesse a pasta do projeto:
    ```sh
-   cd caminho/para/o/projeto
+   cd exercicios1
    ```
 
 3. Instale as dependências:
