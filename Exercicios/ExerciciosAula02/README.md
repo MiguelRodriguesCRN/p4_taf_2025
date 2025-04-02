@@ -1,48 +1,57 @@
+Aqui está uma versão melhorada e corrigida do seu README:
+
+---
+
 # Exercícios de React - Aula 1
 
-Este repositório contém 5 exercícios práticos utilizando React com Vite. alguns deles sendo de If e else para renderizar depois exerciios de tipos de importação de imagens, a utilização do useState e depois os soretadores em REact.
+Este repositório contém 5 exercícios práticos utilizando React com Vite. Alguns dos exercícios envolvem a utilização de condicionais `if` e `else` para renderizar elementos, tipos de importação de imagens, o uso do `useState` e a implementação de sorteadores em React.
 
-ALUNO: Miguel Rodrigues Carneiro
+**Aluno:** Miguel Rodrigues Carneiro
 
 ## Tecnologias Utilizadas
 - Visual Studio Code
-- Node.js - Vite - JavaScript (JSX)
+- Node.js
+- Vite
+- JavaScript (JSX)
 - NPM
 - GitHub
 - React
 
 ## Exercícios
 
-### Exercício 1: Renderizando textos
-Criamos dois componentes:
+### Exercício 1: Renderizando Textos
+Neste exercício, criamos dois componentes:
 
 - `RenderizaBackOuFront`
 - `RenderizandoComFuncoes`
 
+Cada componente recebe uma condição, e dependendo do valor inserido na função `escolhaFrontOuBack`, ele exibe um resultado diferente.
 
-Cada componente recebe uma condição que dependendo do texto insridos na função "escolhaFrontOuBack" ele exibe um resultado
+### Resultados dos Exercícios 1 e 2
 
-### Resultados Dos Exercicio
+![Resultado Exercícios 1 e 2](src/resultado/exercicios01e2.png)
+
+### Exercício 3: Renderizando Imagens
+Criamos um componente chamado `TrabalhandoComImagens`, que recebe a URL de uma imagem. Caso a imagem esteja na pasta `public`, podemos acessá-la diretamente pelo atributo `src`. Caso esteja na pasta `assets`, é necessário utilizar uma template expression para importá-la corretamente.
+
+### Resultados do Exercício 3
+
+![Resultado Exercício 3](src/resultado/exercicio3.png)
+
+### Exercício 4: Utilizando Hooks
+
+Criamos os seguintes componentes utilizando o hook `useState`:
+
+- `HookContador`
+- `HookMegaSena`
+- `HookQuina`
+
+No componente `HookContador`, implementamos um contador que permite incrementar e decrementar um valor. Nos componentes `HookMegaSena` e `HookQuina`, implementamos sorteadores de números, onde o `useState` armazena os números sorteados e os exibe ao usuário.
+
+### Resultados dos Exercícios 4, 5 e 6
+
+![Resultado Exercícios 4, 5 e 6](src/resultado/exercicios456.png)
 
 
-![Descrição da Imagem](src/resultado/exercicios01e2.png)
-
-### Exercício 3: Renderizar imagens
-Criamos um componente chamado `TrabalhandoComImagens`, que recebe se a imagen estiver no public conseguimos puxar diretament  no src pois ela esta publica mas caso ela esteja em assets é nescessario abrir um template explrecion
-
-### Resultados Dos Exercicio
-
-![Descrição da Imagem](src/resultado/exercicio3.png)
-
-### Exercício 4: Utilizandoos Hooks
-
-Criamos componentes chamados `HookContador`, `HookMegaSena`, `HookQuina`, onde utiulzdms do UseState para guardar io valonor d eum botão naquele momeno para que no primeiro exeicios criarmos um contatdr em que podeiramos incrementar e desimcrementar um valor, nos outros dois exerciios criamos um sorteador d enumero em que o useState pegava o valor gerado e guardava em uma lista de numero sorteador e o msmeo valor é apresentado no umtomo numero sorteado
-
-## Como Executar o Projeto
-
-### Resultados Dos Exercicio
-
-![Descrição da Imagem](src/resultado/exercicios456.png)
 
 ---
-
