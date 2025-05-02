@@ -124,4 +124,4 @@ anacristinacrn@gmail.com
 
 ## Resultados dos Exercícios
 
-![Resultado Exercícios](src/resultado/Aula03.png)
+![Resultado Exercícios](src/resultado/Aula05.png)
