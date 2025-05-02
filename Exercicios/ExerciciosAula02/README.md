@@ -1,8 +1,6 @@
-Aqui está uma versão melhorada e corrigida do seu README:
-
----
-
 # Exercícios de React - Aula 1
+
+ALUNO: Miguel Rodrigues Carneiro
 
 Este repositório contém 5 exercícios práticos utilizando React com Vite. Alguns dos exercícios envolvem a utilização de condicionais `if` e `else` para renderizar elementos, tipos de importação de imagens, o uso do `useState` e a implementação de sorteadores em React.
 
