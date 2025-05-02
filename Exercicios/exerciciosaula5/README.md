@@ -95,33 +95,6 @@ Os dados dos alunos são carregados a partir de uma API (simulada com http://loc
 
 ---
 
-## Resultados Esperados
-
-Ao rodar o código, a aplicação deverá exibir a seguinte tabela com os dados dos alunos:
-Matrícula
-
-Nome
-
-Email
-
-1
-
-Miguel Rodrigues
-
-miguelrodriguescrn@gmail.com
-
-2
-
-Miguel Auguato
-
-miguelaugustovna@gmail.com
-
-3
-
-Ana Cristina
-
-anacristinacrn@gmail.com
-
 ## Resultados dos Exercícios
 
 ![Resultado Exercícios](src/resultado/Aula05.png)
