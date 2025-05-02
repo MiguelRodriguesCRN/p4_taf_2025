@@ -1,34 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import EstouConseguindoAprenderReact from './components/EstouConseguindoAprenderReact'
+import EstaComSono from './components/EstaComSono'
+import Aluno from './components/Aluno'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
 
+  
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+    <div>
+      <EstouConseguindoAprenderReact estouConseguindo={false} />
+      <EstaComSono comSono={true} />
+
+      {
+        [{nome: "Miguel", email: "miguel@gmail.com", curso: "Sistemas Para Internet"},
+          {nome: "Leonardo", email: "leonardo@gmail.com", curso: "Sistemas Para Internet"},
+          {nome: "Joao", email: "joao@gmail.com", curso: "Festa Zumbi"}
+        ].map((aluno) =>
+          <Aluno nome={aluno.nome} email={aluno.email} curso={aluno.curso}/>
+        )
+
+      }
+
+    </div>
   )
 }
 
